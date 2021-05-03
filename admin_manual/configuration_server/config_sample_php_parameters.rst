@@ -854,7 +854,9 @@ Defaults to ``false``
 	'updatechecker' => true,
 
 Check if Nextcloud is up-to-date and shows a notification if a new version is
-available.
+available. It sends current version, php version, installation and last update
+time and release channel to the updater server which responds with the latest
+available version based on those metrics.
 
 Defaults to ``true``
 
@@ -2189,3 +2191,4 @@ normal maintenance change. To disable this specific email the appconfig option
 To disable this behaviour change it to any other value or delete the app config::
 
 	occ config:app:delete settings disable_activity.email_address_changed_by_admin
+You can also in the 
