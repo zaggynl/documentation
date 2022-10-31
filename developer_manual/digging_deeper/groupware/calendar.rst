@@ -166,9 +166,7 @@ Handling iMIP data
 
 You may implement the ``IHandleIMipMessage`` interface to process iMIP data you receive in a client and want to pass on for processing to the backend. 
 
-Please be aware that there are some security considerations to take into account.
-
-You can find more infomation on the conditions that have to be fulfilled for iMIP data to be processed in the `RFC <https://www.rfc-editor.org/rfc/rfc6047>`_
+Please be aware that there are some security considerations to take into account. You can find more infomation on these and the conditions that have to be fulfilled for iMIP data to be processed in the `RFC <https://www.rfc-editor.org/rfc/rfc6047>`_
 
 .. code-block:: php
 
